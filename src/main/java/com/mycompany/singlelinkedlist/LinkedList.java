@@ -79,4 +79,23 @@ class LinkedList {
          }
       }
    }
+   
+   
+   public void printList(){
+       Node node = head;
+       while(node != null){
+           System.out.print(node.data + " ");
+           node = node.next;
+       }
+       
+       System.out.println();
+       
+       
+           
+   }
+   
+   public Node getHead(){
+       return head;
+   }
+       
 }
